@@ -11,6 +11,7 @@
     <header id="top" class="card">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>Open the Console in Google Chrome Dev to see ConsolLog(topics) in action!</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -70,7 +71,26 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>se escribe una VARiable luego el nombre de la variable seguido del = y despues lo que contiene la variable. Puede ser un solo elemento o un grupo.</li>
+          <li>Array is a single variable that is used to hold a group of data. Para hacer un array se ponen los elementos del grupo dentro de [ , , ] </li>
+          <li>Notice that only the student's name, "Lu", is surrounded by quotation marks. That is because Lu is a string, and strings need to be contained within quotation marks. Since 54 is a number and true is a Boolean value, no quotation marks are necessary for those values. </li>
+          <li>Loops: A `for` loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. Developers must use another statement, such as the conditional if statement that we just learned, to interrupt the control flow by executing a block of code a specific number of times.</li>
+          <li>In order to use the `for` loop, we need the shape's index and the array's length. The array length is important because the for loop needs to know how many times the code will run until there are no items left in the array. </li>
+          <li>We can find the length of an array by using a built-in property of an array, appropriately named `length`.</li>
+          <li>3 statements for `for`loop: </li>
+            <ol>
+              <li>x = 0; porque es el inicio</li>
+              <li>x < shapes.length; porque debe llegar hasta el final</li>
+              <li>x++ ; The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1. Para que corra cada uno de los elementos en orden.</li>
+              <li>for(var x = 0; x < shapes.length; x++) {
+                <br> // code block
+               <br> }
+              <br>así se tiene que ver, en este caso vamos a poner que enliste las variables en la consola usando:
+            <br>for(var x = 0; x < shapes.length; x++) {
+             <br> console.log(shapes[x]);
+            <br> }
+          </li>
+            </ol>
         </ul>
       </section>
     </main>
@@ -78,5 +98,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src=" ./assets/script.js"></script>
   </body>
 </html>
